@@ -1,4 +1,4 @@
-#!/bin/bash
+/*#!/bin/bash
     cd bazar
     mkdir -p music
     for MP3 in *.mp3
@@ -17,4 +17,14 @@
     do
         cp $PWD/$PDF $PWD/document
         rm $PWD/$PDF
-    done
+    done*/
+    #!/bin/bash
+
+   #Rangement des fichiers
+
+   LIST=`find $1 -print`
+
+   for ITEM in $LIST
+   do
+           echo $ITEM
+   done
