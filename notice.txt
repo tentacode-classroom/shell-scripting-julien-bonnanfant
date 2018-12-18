@@ -1,0 +1,2 @@
+Pour utiliser clean_up.sh, il vous suffit de taper
+./clean_up.sh DossierATrier
